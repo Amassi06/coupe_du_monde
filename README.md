@@ -32,9 +32,10 @@ Ce projet est un système de gestion de données pour les Coupes du Monde, perme
    git clone https://github.com/ton-utilisateur/ton-repository.git
 
 ## Images
-![](image1.png)
-![](image2.png)
-![](image3.png)
-![](image4.png)
+<img src="image1.png" width="300" height="600" />
+<img src="image2.png" width="300" height="600" />
+<img src="image3.png" width="300" height="600" />
+<img src="image4.png" width="300" height="600" />
+
 
 
