@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 300px; /* Définissez la largeur maximale de l'image */
+    height: auto; /* Assurez-vous que la hauteur est ajustée automatiquement pour conserver les proportions */
+    display: block; /* Pour garantir que les marges s'appliquent correctement */
+    margin: 0 auto 20px; /* Ajoutez des marges en haut et en bas, et centrez l'image horizontalement */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+form input[type="text"],
+form input[type="number"]{
+    height: 50px;
+}
+
+ input[type="submit"] {
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style des liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+a.red:hover{
+    color: white;
+    background-color: red;
+    border: 2px solid red
+}
+a.orange:hover{
+
+    color: white;
+    background-color: #ff7f00;
+    border: 2px solid #ff7f00
+}
+input[type="submit"][value="Ajouter"]:hover{
+    color: white;
+    background-color: #4caf50;
+    border: 2px solid #4caf50
+}
+input[type="submit"][value="Modifier"]:hover{
+    color: white;
+    background-color: #ff7f00;
+    border: 2px solid #ff7f00
+}
+
+
+/* Ajoutez de l'espace entre les liens */
+a + a {
+    margin-left: 20px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: left;
+
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+ul ul ul ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: circle;
+}
+
+
+ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+ul ul {
+    margin-left: 50px;
+    list-style-type: circle;
+}
+ul ul ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+}
+
+
